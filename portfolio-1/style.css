@@ -46,11 +46,26 @@ border-radius: 5px;
     margin-right: 5%;
         padding-left: 5%;
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
+    
+    
 }
 .experience{
 
 background-image: url("images/exp-bg.png");
 background-repeat: no-repeat;
 background-position: left;
+}
+#web-chng{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#web-chng-1{
+    border-left: 5px solid;
+    border-image: linear-gradien(salmon, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    
 }
